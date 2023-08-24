@@ -25,24 +25,33 @@
         <a href="#" class="cta-button">Get Started</a>
     </section>
 
-    <section class="services">
-        <h2>Our Services</h2>
-        <div class="service">
-            <h3>Cloud Consulting</h3>
-            <p>We offer expert consulting services to help you make the most of the cloud.</p>
+    <section class="tabs">
+        <div class="tab">
+            <button class="tablinks" onclick="openTab(event, 'tab1')">Services</button>
+            <button class="tablinks" onclick="openTab(event, 'tab2')">About Us</button>
+            <button class="tablinks" onclick="openTab(event, 'tab3')">Contact</button>
         </div>
-        <div class="service">
-            <h3>Managed Services</h3>
-            <p>Let us handle your cloud infrastructure so you can focus on your business.</p>
+
+        <div id="tab1" class="tabcontent">
+            <h2>Our Services</h2>
+            <p>We offer various cloud support services to cater to your needs.</p>
         </div>
-        <div class="service">
-            <h3>24/7 Support</h3>
-            <p>Our team is available around the clock to assist you with any cloud-related issues.</p>
+
+        <div id="tab2" class="tabcontent">
+            <h2>About Us</h2>
+            <p>Learn about our dedicated team and our mission.</p>
+        </div>
+
+        <div id="tab3" class="tabcontent">
+            <h2>Contact Us</h2>
+            <p>Get in touch with us for inquiries and assistance.</p>
         </div>
     </section>
 
     <footer>
         <p>&copy; 2023 Your Cloud Support Company. All rights reserved.</p>
     </footer>
+
+    <script src="tabs.js"></script>
 </body>
 </html>
