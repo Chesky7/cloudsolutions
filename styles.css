@@ -66,14 +66,36 @@ header {
     background-color: #ff9800;
 }
 
-/* Services section styles */
-.services {
-    padding: 4rem 0;
+/* Tab styles */
+.tabs {
     text-align: center;
+    padding: 2rem 0;
 }
 
-.service {
-    margin: 2rem;
+.tab {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+
+.tablinks {
+    background-color: #f2f2f2;
+    border: none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.tablinks:hover {
+    background-color: #ddd;
+}
+
+.tabcontent {
+    display: none;
+    padding: 2rem;
+    border: 1px solid #ddd;
+    background-color: #f9f9f9;
 }
 
 /* Footer styles */
